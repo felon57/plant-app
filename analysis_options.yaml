@@ -1,0 +1,13 @@
+# Analyzer and lint configuration for the project.
+# See: https://dart.dev/guides/language/analysis-options
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+
+linter:
+  rules:
+    avoid_print: true
+    prefer_single_quotes: true
